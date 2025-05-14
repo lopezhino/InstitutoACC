@@ -5,12 +5,14 @@
 header{
     background-image: url(../multimedia/37-Instituto-x-Colon-13052023-800x533.jpg);
     font-size: 20px;
+    width: 201vh;
 }
 
 
 main{
     background-image: url(../multimedia/red-and-black-youtube-cover-2teo7jmi3k6bdinr.jpg); 
     height: 150vh;
+    width: 201vh;
 }
 
 .tienda{
@@ -22,16 +24,27 @@ main{
 }
 
 body{
-height: 100vh;
     background-color: rgba(0, 0, 0, 0.89);
     font-family: Overlock;
-} 
+    width: 100vh;
+    background-color: #023047;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 footer{
     background-image: url(../multimedia/light-red-backdrop-with-circular-arc-vector.jpg);
     font-size: 20px;
-    
-}
+    width: 201vh;
+} 
+
+.informacion-en-conjunto{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 16px; 
+} 
 
 .logo-iacc{
     margin-left: 750px;
@@ -42,7 +55,7 @@ footer{
 }
 
 h1{  
-    color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.877);
     font-size: 60px;
 }
 
@@ -53,6 +66,9 @@ h2{
 
 .estadio-iacc{
     margin-left: 250px;
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* display: block; */
 }
 
 
@@ -99,7 +115,7 @@ input{
 
 .floating-wsp img:hover {
     transform: scale(1.1);
-}
+} 
 
 .video-iacc2024{
     margin-left: 250px;
@@ -121,6 +137,22 @@ li{
 
 .contacto{
     height: 80vh;
+}
+
+label {
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input {
+  font-size: 16px;
+  padding: 6px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
 }
 
 p{
@@ -155,3 +187,162 @@ p{
 .Rem-titular2025{
     font-size: 18px;
 }
+
+
+/* @media (max-width: 400px) {
+    .main{
+    display: flex;
+    
+    }
+} */
+
+/* footer {
+    background-image: url(../multimedia/light-red-backdrop-with-circular-arc-vector.jpg); */
+    /*background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    }
+*/
+
+.footer-content {
+    max-width: 900px;
+    /* margin: auto; */
+}
+
+.redes-sociales {
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.redes-sociales img {
+    width: 24px;
+    height: 24px;
+}
+
+.whatsapp img {
+    width: 60px;
+    height: 60px;
+}
+
+
+@media screen and (max-width: 400px) {
+    header{
+        background-image: url(../multimedia/37-Instituto-x-Colon-13052023-800x533.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        }
+
+    .logo-iacc, .imd {
+    margin: 0 auto;
+    }
+    
+
+    main{
+        display: flex;
+        flex-direction: column;
+        background-image: url(../multimedia/red-and-black-youtube-cover-2teo7jmi3k6bdinr.jpg); 
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+    }
+        
+
+    .estadio-iacc {
+    margin: 0 auto;
+    text-align: center;
+    }
+    .estadio-iacc img {
+    max-width: 100%;
+    height: auto;
+    }
+
+
+    .informacion-extra{
+        max-width: 100%;
+        height: auto;
+        border: 5px solid rgb(194, 172green, 99);
+        padding: 16px;
+        color: black;
+        font: 16px;
+        line-height: 28px;
+        text-align: justify;
+        margin: 20px auto;
+        max-width: 90%;
+        box-sizing: border-box;
+    }
+    
+    footer {
+        padding: 15px;
+        /* margin-top: 60.5vh; */
+        background-image: url(../multimedia/light-red-backdrop-with-circular-arc-vector.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        /* padding: 20px; */
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    } 
+
+    .redes-sociales {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redes-sociales a {
+        font-size: 14px;
+    } 
+
+    .video-iacc2024{
+        max-width: auto;
+        height: auto;
+        border: 5px solid rgb(194, 172green, 99);
+        padding: 16px;
+        color: black;
+        font: 16px;
+        line-height: 28px;
+        text-align: justify;
+        margin: 20px auto;
+        box-sizing: border-box;    
+    }
+
+        input{
+            font-size: 10px;
+        }
+    
+    .grids-use, .grids-use1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    }
+
+    .grids-use img, .grids-use1 img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    }
