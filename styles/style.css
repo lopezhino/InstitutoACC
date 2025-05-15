@@ -5,14 +5,14 @@
 header{
     background-image: url(../multimedia/37-Instituto-x-Colon-13052023-800x533.jpg);
     font-size: 20px;
-    width: 201vh;
+    width: 99vw;
 }
 
 
 main{
     background-image: url(../multimedia/red-and-black-youtube-cover-2teo7jmi3k6bdinr.jpg); 
     height: 150vh;
-    width: 201vh;
+    width: 99vw;
 }
 
 .tienda{
@@ -26,7 +26,7 @@ main{
 body{
     background-color: rgba(0, 0, 0, 0.89);
     font-family: Overlock;
-    width: 100vh;
+    width: 99vw;
     background-color: #023047;
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ body{
 footer{
     background-image: url(../multimedia/light-red-backdrop-with-circular-arc-vector.jpg);
     font-size: 20px;
-    width: 201vh;
+    width: 99vw;
 } 
 
 .informacion-en-conjunto{
@@ -65,10 +65,9 @@ h2{
 }
 
 .estadio-iacc{
-    margin-left: 250px;
+    margin-left: 370px;
     /* max-width: 100%; */
     /* height: auto; */
-    /* display: block; */
 }
 
 
@@ -117,7 +116,7 @@ input{
     transform: scale(1.1);
 } 
 
-.video-iacc2024{
+.video-iacc2025{
     margin-left: 250px;
 }
 
@@ -160,13 +159,13 @@ p{
     font-size: large;
 }
 
-.grids-use{
+.gridsuse-sm{
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
 }
 
-.grids-use1{
+.gridsuse1-sm{
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
@@ -333,16 +332,45 @@ p{
             font-size: 10px;
         }
     
-    .grids-use, .grids-use1 {
+    .gridsuse-sm, .gridsuse1-sm {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
     }
 
-    .grids-use img, .grids-use1 img {
+    .gridsuse-sm img, .gridsuse1-sm img {
     max-width: 100%;
     height: auto;
     }
 
+    .gridsuse-sm2, .gridsuse1-sm2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;       
+    }
+
+    .gridsuse-sm2 img{
+    max-width: 100%;
+    height: auto;
+    }
+
+    .Rem-titular2025{
+        font-size: 74.5%;
+    }
+
+    .video-iacc2025 {
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        padding: 0 10px;
+        size: 10px;
+        margin:0 auto;
+        
+    }
+
+    label{
+        font-size: 50px;
+    }
     }
