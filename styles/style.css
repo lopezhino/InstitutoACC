@@ -71,6 +71,29 @@ h2{
 }
 
 
+.bandera{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+    padding: 250px;
+}
+
+.bandera:hover{
+    animation: bandera 8s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bandera{
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 2.0;
+    }
+}
+
+
 h4{
     background-color: aliceblue;
     border: 5px solid  rgb(194, 172, 99);
@@ -239,6 +262,16 @@ p{
     height: 60px;
 }
 
+.mapa {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 750px;
+}
+
 
 @media screen and (max-width: 400px) {
     header{
@@ -372,5 +405,10 @@ p{
 
     label{
         font-size: 50px;
+    }
+
+    .bandera{
+        margin-left: auto;
+        margin-right: auto;
     }
     }

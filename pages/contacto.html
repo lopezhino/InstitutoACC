@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto-Instituto</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../scss/style.css">
     <link rel="shortcut icon" href="../multimedia/logo favicon.png" type="image/x-icon">
-</head>
+    <meta name="description" content="Contactanos y cuentanos todas tus dudas">
+    <meta name="keywords" content="Contactos, Formulario">
+    <meta name="author" content="Alejo Lopez">
+</head> 
 <body>
     <header>
         <a href="../index.html">
@@ -39,20 +42,29 @@
         <br>
         <br>
         <form class="formulario">
-            <label for="nombre">Nombre:</label><br>
-            <input type="nombre" id="text" name="nombre">
+            <label for="Nombre">Nombre:</label><br>
+            <input type="text" id="Nombre" name="nombre">
             <br>
             <label for="Numero">Celular:</label><br>
-            <input type="number" id="celular" name="celular">
+            <input type="number" id="Celular" name="celular">
             <br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email">
             <br>
-            <label for="password">Constraseña</label><br>
+            <label for="Contrasela">Datos De Tarjeta</label><br>
             <input type="password" id="Constraseña" name="Constraseña">
-
-            <button type="button">Send</button>
+            <button type="button" id="btnSuscribirse">Enviar Mensaje / Suscribirse</button>
         </form>
+        <div class="ubicacion">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.054448067048!2d-64.18357572372695!3d-31.385062174276268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432984492fed55b%3A0xbe137899630e92c0!2sInstituto%20Atl%C3%A9tico%20Central%20C%C3%B3rdoba%20(I.A.C.C.)!5e0!3m2!1ses!2sar!4v1750725669629!5m2!1ses!2sar"
+            width="400" 
+            height="300"
+            style="border: 5px;"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </div>
     </main>
     <footer>
         <h3>Derechos Reservados</h2>
@@ -66,5 +78,6 @@
             <img src="../multimedia/gratis-png-logo-de-la-app-de-whatsapp-logo-de-whatsapp-whatsapp-thumbnail (1).png" alt="Mi Contacto De Whatsapp" style="width: 80px;">
         </a>
     </h1>
+    <script src="../js/script.js"></script>
 </body>
 </html>

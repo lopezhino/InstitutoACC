@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.bandera:hover {
+  animation: bandera 8s ease;
+  animation-fill-mode: forwards;
+}
+
+header {
+  background-image: url(../multimedia/37-Instituto-x-Colon-13052023-800x533.jpg);
+  font-size: 20px;
+  width: 99vw;
+}
+header h1 {
+  color: rgba(0, 0, 0, 0.877);
+  font-size: 60px;
+}
+header .logo-iacc {
+  margin-left: 750px;
+}
+header .imd {
+  margin-left: 450px;
+}
+
+main {
+  background-image: url(../multimedia/red-and-black-youtube-cover-2teo7jmi3k6bdinr.jpg);
+  height: 150vh;
+  width: 99vw;
+}
+main h2 {
+  color: rgb(255, 248, 238);
+  font-size: 45px;
+}
+main .gridsuse-sm {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+main .Rem-titular2025 {
+  font-size: 18px;
+}
+main .gridsuse1-sm {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+main p {
+  color: white;
+  font-size: large;
+}
+main .camiseta2024 {
+  font-size: 22px;
+}
+main .cami-suplente2024 {
+  font-size: 22px;
+}
+main li {
+  color: white;
+  font-size: 20px;
+}
+main .estadio-iacc {
+  margin: 0 auto;
+  text-align: center;
+}
+main .estadio-iacc img {
+  max-width: 100%;
+  height: auto;
+}
+main h4 {
+  background-color: aliceblue;
+  border: 5px solid rgb(194, 172, 99);
+  display: flex;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  margin-left: 50px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 30px;
+}
+main .informacion {
+  font-size: x-large;
+}
+main h3 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+main .bandera:hover {
+  animation: bandera 8s ease;
+  animation-fill-mode: forwards;
+}
+main label {
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white;
+}
+main input {
+  font-size: 16px;
+  padding: 6px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+main .ubicacion {
+  overflow: hidden;
+  margin-left: 1250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+main.tienda {
+  height: 250vh;
+}
+
+.galeria {
+  height: 320vh;
+}
+
+.contacto {
+  height: 110vh;
+}
+
+footer {
+  background-image: url(../multimedia/light-red-backdrop-with-circular-arc-vector.jpg);
+  font-size: 20px;
+  width: 99vw;
+}
+footer .footer-content {
+  max-width: 900px;
+  /* margin: auto; */
+}
+footer .redes-sociales {
+  display: flex;
+  /* justify-content: center; */
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+footer .redes-sociales a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+footer .redes-sociales img {
+  width: 24px;
+  height: 24px;
+}
+footer .floating-wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+footer .floating-wsp img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+footer .floating-wsp img:hover {
+  transform: scale(1.1);
+}
+footer .whatsapp img {
+  width: 60px;
+  height: 60px;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.89);
+  font-family: Overlock;
+  width: 99vw;
+  background-color: rgba(0, 0, 0, 0.8705882353);
+  margin: 0;
+  padding: 0;
+}
+
+.floating-wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.floating-wsp img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.floating-wsp img:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp img {
+  width: 60px;
+  height: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

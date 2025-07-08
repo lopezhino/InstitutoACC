@@ -1,0 +1,123 @@
+main{
+    background-image: url(../multimedia/red-and-black-youtube-cover-2teo7jmi3k6bdinr.jpg); 
+    height: 150vh;
+    width: 99vw;
+    h2{
+    color: rgb(255, 248, 238);
+    font-size: 45px;
+    }
+
+    .gridsuse-sm{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    }
+
+    .Rem-titular2025{
+    font-size: 18px;
+    }
+
+    .gridsuse1-sm{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    }
+
+    p{
+    color: white;
+    font-size: large;
+    }
+
+    .camiseta2024{
+    font-size: 22px;
+    }
+
+    .cami-suplente2024{
+    font-size: 22px;
+    }
+
+    li{
+    color: white;
+    font-size: 20px; 
+    }
+
+    .estadio-iacc {
+    margin: 0 auto;
+    text-align: center;
+    }
+    .estadio-iacc img {
+    max-width: 100%;
+    height: auto;
+    }
+
+    h4{
+    background-color: aliceblue;
+    border: 5px solid  rgb(194, 172, 99);
+    display: flex;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    margin-left: 50px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 30px;
+    }
+    
+    .informacion{ 
+    font-size:x-large;
+    }
+    h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    }
+    .bandera:hover{
+    animation: bandera 8s ease;
+    animation-fill-mode: forwards;
+    }
+
+    label {
+  font-size: 16px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: white;
+    }
+
+    input {
+    font-size: 16px;
+    padding: 6px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    }
+
+   .ubicacion {
+//   width: 100%;
+//   max-width: 800px;
+//   margin: auto;
+//   border: 3px solid white;
+//   border-radius: 10px;
+  overflow: hidden;
+  margin-left: 1250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+}
+
+main.tienda
+     {
+    height: 250vh;
+    }
+
+
+ .galeria{
+     height: 320vh;
+    }
+
+.contacto{
+    height: 110vh;
+}
+ 

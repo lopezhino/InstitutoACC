@@ -7,3 +7,8 @@
         @content
         }
 }
+
+.bandera:hover{
+    animation: bandera 8s ease;
+    animation-fill-mode: forwards;
+    }

@@ -1,0 +1,49 @@
+footer{
+    background-image: url(../multimedia/light-red-backdrop-with-circular-arc-vector.jpg);
+    font-size: 20px;
+    width: 99vw;
+    .footer-content {
+    max-width: 900px;
+    /* margin: auto; */
+    }
+    .redes-sociales {
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    }
+    .redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    }
+
+    .redes-sociales img {
+    width: 24px;
+    height: 24px;
+    }
+    .floating-wsp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    }
+
+    .floating-wsp img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+    }
+
+    .floating-wsp img:hover {
+    transform: scale(1.1);
+    }
+    .whatsapp img {
+    width: 60px;
+    height: 60px;
+    }
+}
